@@ -9,6 +9,5 @@ def askGPT(text):
         prompt = text,
         temperature = 0.6,
         max_tokens = 150,
-        
     )
     return response.choices[0].text
